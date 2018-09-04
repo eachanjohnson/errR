@@ -6,6 +6,7 @@
 #' is applied to the raised \code{Error} object.
 #' @param ... Other arguments.
 #' @return Result of \code{try_expression} or \code{catch_expression}.
+#' @seealso \link{\code{tryCatch}}
 #' @export
 `%except%` <- function (try_expression, catch_expression) {
 

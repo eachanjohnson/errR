@@ -21,4 +21,7 @@ Result of \code{try_expression} or \code{catch_expression}.
 Binary operator for terse error handling. If the left-hand-side results in an error, the right-hand-side handles it
 an \code{expression} or a \code{function}, which is applied to the raised \code{Error} object.
 }
+\seealso{
+\link{\code{tryCatch}}
+}
 
