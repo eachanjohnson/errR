@@ -1,6 +1,12 @@
 # errR
 `errR` is a minimal framework which wraps R's `tryCatch` into a system of binary operators to make defensive programming more succinct and readable.
 
+## Installation
+
+Not yet on CRAN. Install using `devtools`:
+
+`devtools::install_github('eachanjohnson/errR')`
+
 ## Usage
 Currently supports two related idioms:
 
