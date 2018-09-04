@@ -24,4 +24,3 @@ See how this compares to:
 
 - Handle warnings
 - Add `%finally%` operator
-- Make into a functioning package
