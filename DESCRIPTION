@@ -4,7 +4,7 @@ Version: 0.0.0.9000
 Authors@R: person("Eachan", "Johnson", email = "eachan.johnson@gmail.com", role = c("aut", "cre"))
 Description: errR is a minimal framework which wraps R's tryCatch into a system of binary operators to make defensive programming more succinct and readable.
 Depends:
-    R (>= 3.4.0)
+    R (>= 3.2.0)
 License: MIT
 Encoding: UTF-8
 LazyData: true
