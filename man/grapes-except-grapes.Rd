@@ -12,7 +12,6 @@ try_expression \%except\% catch_expression
 \item{catch_expression}{Passed to \code{error} argument of \code{tryCatch}. Can be an \code{expression} or a \code{function} which
 is applied to the raised \code{Error} object.}
 
-\item{...}{Other arguments.}
 }
 \value{
 Result of \code{try_expression} or \code{catch_expression}.
@@ -22,6 +21,6 @@ Binary operator for terse error handling. If the left-hand-side results in an er
 an \code{expression} or a \code{function}, which is applied to the raised \code{Error} object.
 }
 \seealso{
-\link{\code{tryCatch}}
+\link{tryCatch}
 }
 
