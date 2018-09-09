@@ -1,11 +1,11 @@
 Package: errR
 Title: Graceful error handling for R
-Version: 0.0.0.9000
+Version: 0.0.1
 Authors@R: person("Eachan", "Johnson", email = "eachan.johnson@gmail.com", role = c("aut", "cre"))
 Description: errR is a minimal framework which wraps R's tryCatch into a system of binary operators to make defensive programming more succinct and readable.
 Depends:
     R (>= 3.2.0)
-License: MIT
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 5.0.1

@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/eachanjohnson/errR.svg?branch=master)](https://travis-ci.org/eachanjohnson/errR)
+
 # errR
 `errR` is a minimal framework which wraps R's `tryCatch` into a system of binary operators to make defensive programming more succinct and readable.
 

@@ -4,9 +4,8 @@
 #' @param try_expression Passed to \code{expr} argument of \code{tryCatch}.
 #' @param catch_expression Passed to \code{error} argument of \code{tryCatch}. Can be an \code{expression} or a \code{function} which
 #' is applied to the raised \code{Error} object.
-#' @param ... Other arguments.
 #' @return Result of \code{try_expression} or \code{catch_expression}.
-#' @seealso \link{\code{tryCatch}}
+#' @seealso \link{tryCatch}
 #' @export
 `%except%` <- function (try_expression, catch_expression) {
 
